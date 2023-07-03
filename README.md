@@ -52,6 +52,17 @@ The QuizTech application has the following dependencies:
 
 These dependencies are listed in the `requirements.txt` file and can be installed using `pip`.
 
+## Acess to Screenshots of the Application
+
+[Click here to open the home page](./screenshots/home.png)
+[Click here to open the signup page](./screenshots/sign_up.png)
+[Click here to open the login page](./screenshots/login.png)
+[Click here to open the category page](./screenshots/category.png)
+[Click here to open the select_category page](./screenshotses/select_category.png)
+[Click here to open the quiz page](./screenshots/quiz_questions.png)
+[Click here to open the results page](./screenshots/quiz_results.png)
+
+
 ## Contributing
 
 Contributions to QuizTech are welcome! If you encounter any bugs or want to add new features, feel free to create issues or submit pull requests. Please ensure you follow the repository's code style and guidelines.
