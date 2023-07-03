@@ -20,12 +20,12 @@ To set up the QuizTech application, follow these steps:
 
 
 3. Install the required dependencies by running the following command in your terminal:
-   pip install -r requirements.txt
+   'pip install -r requirements.txt'
    
 4. Set up a MySQL database and update the `db_config` dictionary in the code with your database details.
  
 5. Run the application using the command:
-                    python main.py
+                    'python main.py'
 6. Access the application in your web browser at `http://localhost:5000`.
 
 ## File Structure
