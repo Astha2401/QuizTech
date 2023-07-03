@@ -1,6 +1,8 @@
 # QuizTech
 
 QuizTech is a powerful quiz application built using Flask, Python, and MySQL. This repository contains the source code and necessary files to create an interactive and feature-rich quiz platform. The application enables users to register, log in, select quiz categories, attempt quizzes, and view their results.
+![Signup Image](screenshots/sign_up.png)
+
 
 ## Features
 
