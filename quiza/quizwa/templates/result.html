@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Result</title>
+</head>
+<body>
+    <h1>Quiz Result</h1>
+    <h2>User Information:</h2>
+    <p>Username: {{ user.username }}</p>
+    <p>Email: {{ user.email }}</p>
+
+    <h2>Selected Options:</h2>
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Selected Option</th>
+        </tr>
+        {% for selected_option in selected_options %}
+        <tr>
+            <td>{{ selected_option.question_id }}</td>
+            <td>{{ selected_option.option_id }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

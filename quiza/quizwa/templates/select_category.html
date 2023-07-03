@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Category</title>
+</head>
+<body>
+    <h1>Select a Category</h1>
+    <form method="POST" action="{{ url_for('quiz') }}">
+        <select name="category_id">
+            {% for category in categories %}
+            <option value="{{ category.id }}">{{ category.name }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Start Quiz">
+    </form>
+</body>
+</html>

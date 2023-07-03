@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Quiz Questions</h1>
+    {% for question in questions %}
+    <h3>{{ question.question_text }}</h3>
+    <ul>
+        {% for option in question.options %}
+        <li>{{ option.option_text }}</li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</body>
+</html>
