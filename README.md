@@ -12,23 +12,28 @@ QuizTech is a powerful quiz application built using Flask, Python, and MySQL. Th
 - **Quiz Attempt and Scoring**: Users can attempt quizzes by selecting options for each question. The application calculates and displays the user's score and percentage based on the selected options.
 - **User Responses**: The application stores user responses in the MySQL database, enabling future analysis and tracking of user performance.
 
-## Getting Started
+## How to use this Project
 
-To set up the QuizTech application, follow these steps:
+1. Download the files using the `git clone` command:
+$git@github.com:Astha2401/QuizTech.git
 
-1. Ensure you have Python installed on your system.
-   
-2. Clone this repository to your local machine using the command:
+2. Create a virtual environment. A virtual environment helps to keep project dependencies separate:
+$ python3 -m venv env
+$ source env/bin/activate
+
+3. Install the project dependencies from the `requirements.txt` file:
+$ pip install -r requirements.txt
 
 
-3. Install the required dependencies by running the following command in your terminal:
-   'pip install -r requirements.txt'
-   
-4. Set up a MySQL database and update the `db_config` dictionary in the code with your database details.
- 
-5. Run the application using the command:
-                    'python main.py'
-6. Access the application in your web browser at `http://localhost:5000`.
+4. Run the `quiz.py` file:
+$ python quiz.py
+
+Open your browser and enter http://localhost:5000 to view the project live.
+Press CTRL-C to stop the server.
+
+To deactivate the virtual environment, use the following command:
+$ deactivate
+
 
 ## File Structure
 
