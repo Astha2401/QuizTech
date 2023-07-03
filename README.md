@@ -55,13 +55,20 @@ These dependencies are listed in the `requirements.txt` file and can be installe
 ## Acess to Screenshots of the Application
 
 [Click here to open the home page](./screenshots/home.png)
+<br/>
 [Click here to open the signup page](./screenshots/sign_up.png)
+<br/>
 [Click here to open the login page](./screenshots/login.png)
+<br/>
 [Click here to open the category page](./screenshots/category.png)
+<br/>
 [Click here to open the select_category page](./screenshotses/select_category.png)
+<br/>
 [Click here to open the quiz page](./screenshots/quiz_questions.png)
+<br/>
 [Click here to open the results page](./screenshots/quiz_results.png)
-
+<br/>
+<span style="text-decoration: underline; color: blue;">Underlined Blue Text</span>
 
 ## Contributing
 
