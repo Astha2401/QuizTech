@@ -52,7 +52,7 @@ The QuizTech application has the following dependencies:
 
 These dependencies are listed in the `requirements.txt` file and can be installed using `pip`.
 
-## Acess to Screenshots of the Application
+## Access to Screenshots of the Application
 
 [Click here to open the home page](./screenshots/home.png)
 <br/>
@@ -68,7 +68,7 @@ These dependencies are listed in the `requirements.txt` file and can be installe
 <br/>
 [Click here to open the results page](./screenshots/quiz_results.png)
 <br/>
-<span style="text-decoration: underline; color: blue;">Underlined Blue Text</span>
+<span style="text-decoration: underline; color: blue;"></span>
 
 ## Contributing
 
